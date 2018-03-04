@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Broswer Form</title>
+    <script src="./broswer_form.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <!-- <p>
+        <input type="radio" name="weekday" id="monday" value="1"> Monday</label>
+    </p>
+    <p>
+        <input type="radio" name="weekday" id="tuesday" value="2"> Tuesday
+    </p>
+    <p>
+        <input type="date" value="2015-07-01">
+    </p>
+    <p>
+        <input type="datetime-local" value="2015-07-01T02:03:04">
+    </p>
+    <p>
+        <input type="color" value="#ff0000">
+    </p> -->
+
+
+    <!-- <form id="test-form">
+        <input type="text" name="test">
+        <button type="button" onclick="doSubmitForm()">Submit</button>
+    </form> -->
+
+    <!-- <form id="test-form" onsubmit="return checkForm()">
+        <input type="text" name="test">
+        <button type="submit">Submit</button>
+    </form> -->
+
+
+    <!-- <form id="login-form" method="post" onsubmit="return checkForm()">
+        <input type="text" id="username" name="username">
+        <input type="password" id="input-password">
+        <input type="hidden" id="md5-password" name="password">
+        <button type="submit">Submit</button>
+    </form> -->
+
+
+    <form id="test-register" action="#" target="_blank" onsubmit="return checkRegisterForm()">
+        <p id="test-error" style="color:red"></p>
+        <p>
+            用户名:
+            <input type="text" id="username" name="username">
+        </p>
+        <p>
+            口令:
+            <input type="password" id="password" name="password">
+        </p>
+        <p>
+            重复口令:
+            <input type="password" id="password-2">
+        </p>
+        <p>
+            <button type="submit">提交</button>
+            <button type="reset">重置</button>
+        </p>
+    </form>
+</body>
+
+</html>
