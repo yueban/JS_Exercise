@@ -1,0 +1,53 @@
+/* ul {
+    background-color: #fffff4;
+}
+
+li {
+    background-color: #f4f4f4;
+}
+
+#red {
+    color: #f00;
+}
+
+#green {
+    color: #0f0;
+}
+
+#blue {
+    color: #00f;
+} */
+
+/*** CSS 手册: 颜色页面 ***/
+
+/* 页面 字体 */
+
+body {
+    font: 16px "Comic Sans MS", cursive;
+}
+
+/* 段落 */
+
+p {
+    color: #00f;
+}
+
+#first {
+    font-style: italic;
+}
+
+/* 首字母 */
+
+strong {
+    color: #f00;
+    background-color: #ddf;
+    font: 200% serif;
+}
+
+.carrot {
+    color: #f00;
+}
+
+.spinach {
+    color: #008000;
+}

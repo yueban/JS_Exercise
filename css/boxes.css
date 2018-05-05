@@ -1,0 +1,22 @@
+h3 {
+    border-top: 4px solid #7c7;
+    /* 中绿 */
+    background-color: #efe;
+    /* 浅绿 */
+    color: #050;
+    /* 深绿 */
+}
+
+img {
+    border: 2px solid #ccc;
+}
+
+p.remark {
+    border: 2px solid red;
+    padding: 4px;
+    margin-left: 24px;
+}
+
+h3 {
+    border-top: 1px solid gray;
+}

@@ -1,0 +1,93 @@
+/* p {
+    color: blue;
+    text-decoration: underline;
+}
+
+strong {
+    color: blueviolet;
+    color: rgb(255, 0, 153, 20%);
+    text-decoration: underline;
+} */
+
+/* .key {
+    color: green;
+}
+
+#principal {
+    font-weight: bolder;
+} */
+
+/* #data-table-1 td:first-child {
+    font-weight: bold;
+}
+
+#data-table-1 td:first-child+td {
+    font-family: monospace;
+} */
+
+/* .carrot {
+    color: orange;
+}
+
+strong {
+    color: red;
+}
+
+.spinach {
+    color: green;
+}
+
+#first {
+    font-style: italic;
+}
+
+p {
+    color: blue;
+} */
+
+/* a.homepage:link,
+a.homepage:visited {
+    padding: 1px 10px 1px 10px;
+    color: #fff;
+    background: blue;
+    border-radius: 3px;
+    border: 1px outset rgba(50, 50, 50, .5);
+    font-family: georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a.homepage:hover,
+a.homepage:focus,
+a.homepage:active {
+    background-color: #666;
+} */
+
+/* div.menu-bar ul ul {
+    display: none;
+}
+
+div.menu-bar li:hover>ul {
+    display: block;
+} */
+
+strong {
+    color: red;
+}
+
+.carrot {
+    color: orange;
+}
+
+.spinach {
+    color: green;
+}
+
+#first {
+    font-style: italic;
+}
+
+p {
+    color: blue;
+}

@@ -1,0 +1,39 @@
+body {
+    font: 16px "Comic Sans MS", cursive;
+}
+
+p.demo {
+    font: italic 75%/125% "Comic Sans MS", cursive;
+    font-family: 微软雅黑;
+    /* font-family: "Songti SC"; */
+    font-size: medium;
+    line-height: 1.25;
+    /* text-decoration: underline; */
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+strong {
+    color: red;
+    font-size: 200%;
+    font-family: serif;
+    font-weight: normal;
+}
+
+.carrot {
+    color: orange;
+}
+
+.spinach {
+    color: green;
+}
+
+#first {
+    /* font-style: italic; */
+}
+
+p {
+    color: blue;
+}

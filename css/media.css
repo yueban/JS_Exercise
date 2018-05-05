@@ -1,0 +1,25 @@
+/* @media print {
+    #nav-area {
+        display: none;
+    }
+}
+
+@page {
+    margin: 2in;
+}
+
+h1 {
+    page-break-before: always;
+} */
+
+/* defaults  for screen */
+
+@import url("print.css") print;
+#print-head,
+#print-foot {
+    display: none;
+}
+
+h1:hover {
+    color: blue;
+}

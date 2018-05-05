@@ -1,0 +1,42 @@
+body {
+    background: url("Blue-rule.png");
+}
+
+.ref::before {
+    font-weight: bold;
+    color: navy;
+    content: "Reference: ";
+}
+
+a.glossary::before {
+    content: " " url("./Yellow-pin.png");
+}
+
+p.background {
+    /* background: url("./Yellow-pin.png") no-repeat; */
+    background: url("./Yellow-pin.png") repeat-x;
+}
+
+strong {
+    color: red;
+}
+
+.carrot {
+    color: orange;
+}
+
+.spinach {
+    color: green;
+}
+
+#first {
+    font-style: italic;
+}
+
+p {
+    color: blue;
+}
+
+p::before {
+    content: " " url("./Yellow-pin.png");
+}

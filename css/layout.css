@@ -1,0 +1,49 @@
+ul,
+#numbered {
+    border: 1em solid #69b;
+    padding-right: 1em;
+}
+
+h3 {
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+ul,
+#numbered {
+    float: left;
+}
+
+h3 {
+    clear: left;
+}
+
+#parent-div {
+    position: relative;
+    font: bold 200% sans-serif;
+}
+
+#forward,
+#back {
+    position: absolute;
+    margin: 0px;
+    /* no margin around the elements */
+    top: 0px;
+    /* distance from top */
+    left: 0px;
+    /* distance from left */
+}
+
+#forward {
+    color: blue;
+}
+
+#back {
+    color: red;
+}
+
+#fixed-pin {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
